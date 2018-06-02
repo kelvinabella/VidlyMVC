@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace VidlyMVC
 {
@@ -23,8 +22,8 @@ namespace VidlyMVC
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap-simplex.css",
+                      "~/Content/Site.css"));
         }
     }
 }
