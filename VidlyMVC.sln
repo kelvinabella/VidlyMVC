@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidlyMVC", "VidlyMVC\VidlyMVC.csproj", "{25E8AD63-D4B9-4834-BE94-6D9A4F710B8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFromScratch", "..\WebAppFromScratch\WebAppFromScratch\WebAppFromScratch.csproj", "{97BD706A-0B86-4721-ACD7-9F9020922C22}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{25E8AD63-D4B9-4834-BE94-6D9A4F710B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E8AD63-D4B9-4834-BE94-6D9A4F710B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E8AD63-D4B9-4834-BE94-6D9A4F710B8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97BD706A-0B86-4721-ACD7-9F9020922C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97BD706A-0B86-4721-ACD7-9F9020922C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97BD706A-0B86-4721-ACD7-9F9020922C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97BD706A-0B86-4721-ACD7-9F9020922C22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

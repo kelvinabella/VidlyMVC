@@ -8,6 +8,7 @@ namespace VidlyMVC.Models
         public short SignUpFee { get; set; }
         public byte DurationInMonths { get; set; }
         public byte DiscountRate { get; set; }
+
         [MaxLength(255)]
         public string Name { get; set; }
 
