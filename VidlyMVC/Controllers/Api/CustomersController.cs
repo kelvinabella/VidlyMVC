@@ -47,6 +47,7 @@ namespace VidlyMVC.Controllers.Api
 
         // POST /api/customers
         [HttpPost]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult CreateCustomer(CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
@@ -66,6 +67,7 @@ namespace VidlyMVC.Controllers.Api
 
         //PUT /api/customers/1
         [HttpPut]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult UpdateCustomer(int id, CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
@@ -90,6 +92,7 @@ namespace VidlyMVC.Controllers.Api
 
         // DELETE /api/customers/1
         [HttpDelete]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult DeleteCustomer(int id)
         {
             if (!ModelState.IsValid)
