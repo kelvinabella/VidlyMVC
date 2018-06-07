@@ -23,7 +23,7 @@ namespace VidlyMVC.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-            return View();
+            return View(User.IsInRole(RoleName.CanManageMovies) ? "List" : "ReadOnlyList");
         }
 
         public ActionResult Details(int id)
