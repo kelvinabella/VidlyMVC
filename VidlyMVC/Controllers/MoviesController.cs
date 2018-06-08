@@ -97,6 +97,7 @@ namespace VidlyMVC.Controllers
                 movieInDb.Name = movie.Name;
                 movieInDb.ReleaseDate = movie.ReleaseDate;
                 movieInDb.GenreId = movie.GenreId;
+                movieInDb.NumberAvailable = (short)((movie.NumberInStock - movieInDb.NumberInStock) + movieInDb.NumberAvailable);
                 movieInDb.NumberInStock = movie.NumberInStock;
             }
 
